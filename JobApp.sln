@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobAppWebAPI", "JobAppWebAPI\JobAppWebAPI.csproj", "{B7A2704F-32C2-43D8-9CE1-877B7D906F68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobAppWebAPI", "JobAppWebAPI\JobAppWebAPI.csproj", "{B7A2704F-32C2-43D8-9CE1-877B7D906F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobAppUI", "JobAppUI\JobAppUI.csproj", "{5D20CD04-A813-46E9-8263-2225D8F184B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B7A2704F-32C2-43D8-9CE1-877B7D906F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7A2704F-32C2-43D8-9CE1-877B7D906F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7A2704F-32C2-43D8-9CE1-877B7D906F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D20CD04-A813-46E9-8263-2225D8F184B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D20CD04-A813-46E9-8263-2225D8F184B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D20CD04-A813-46E9-8263-2225D8F184B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D20CD04-A813-46E9-8263-2225D8F184B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

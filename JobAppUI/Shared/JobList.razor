@@ -1,0 +1,14 @@
+﻿@inject HttpClient Http
+
+<h3>JobList</h3>
+
+@code {
+    private List<Job> _jobs = new();
+
+    protected override async void OnInitialized()
+    {
+        var response = await Http.GetFromJsonAsync<List<Job>>("api/Job");
+        if (response != null)
+            _jobs = response;
+    }
+}
